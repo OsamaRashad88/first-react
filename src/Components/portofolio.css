@@ -1,0 +1,33 @@
+.layer-child {
+  background-color: white;
+  height: 80%;
+}
+.layer-image {
+  width: 75%;
+  vertical-align: center;
+}
+.portTitle {
+  position: relative;
+}
+.portTitle:after {
+  margin: 0 auto;
+  position: absolute;
+  content: "";
+  height: 5px;
+  left: 0;
+  right: 0;
+  top: 100%;
+  width: 80px;
+  background-color: black;
+}
+.port-img:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+.closemark {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: black;
+  cursor: pointer;
+}
